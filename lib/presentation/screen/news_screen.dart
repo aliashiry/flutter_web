@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_web/data/api/api_manager.dart';
-import 'package:flutter_web/presentation/news.dart';
-import 'package:flutter_web/presentation/news_cubit.dart';
-import 'package:flutter_web/presentation/news_item.dart';
+import 'package:flutter_web/presentation/widget/news.dart';
+import 'package:flutter_web/presentation/cubit/news_cubit.dart';
+import 'package:flutter_web/presentation/widget/news_item.dart';
 
 class NewsScreen extends StatefulWidget {
 
